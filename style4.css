@@ -1,0 +1,83 @@
+.album-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.album-col {
+    width: 48%;
+}
+
+.album-col img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.album-col h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.album-col p {
+    font-size: 16px;
+    color: #777;
+}
+
+.album-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.album-list li {
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.album-list img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.album-list h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.album-list p {
+    font-size: 14px;
+    color: #777;
+}
+/* Header styles */
+header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-right: 20px;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none; /* видаляє підкреслення */
+    color: black; /* установлює колір тексту в наслідування від батьківського елемента */
+}
