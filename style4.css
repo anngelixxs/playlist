@@ -55,6 +55,12 @@
     font-size: 14px;
     color: #777;
 }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
 /* Header styles */
 header {
     background-color: #f7f7f7;
@@ -76,8 +82,87 @@ nav a {
 nav a:last-child {
     margin-right: 0;
 }
-
 a {
     text-decoration: none; /* видаляє підкреслення */
     color: black; /* установлює колір тексту в наслідування від батьківського елемента */
 }
+.album-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.album-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.album-col {
+    width: 30%;
+}
+
+.album-col img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.album-col h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.album-col p {
+    font-size: 16px;
+    color: #777;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.albums {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.album-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.album-col {
+    flex-basis: 45%;
+    margin: 10px;
+}
+
+.album-col img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.album-col h3 {
+    font-size:

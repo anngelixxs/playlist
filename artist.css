@@ -1,0 +1,124 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Lato, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-right: 20px;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Artist info styles */
+.artist-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.artist-img {
+    flex-basis: 400px;
+    margin-right: 50px;
+}
+
+.artist-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.artist-name {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Popular songs styles */
+.popular-songs {
+    margin-top: 50px;
+}
+
+.popular-songs h3 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.song-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.song-list li {
+    margin: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.song-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.song-info h4 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .artist-info {
+        flex-direction: column;
+    }
+
+    .artist-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .artist-name {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    .song-list li {
+        max-width: 100%;
+    }
+}
+
+h1, h2, h3, h5, h6 {
+    font-family: Georgia, serif;
+}
+h4 {
+    font-family: Playfair Display, serif;
+}
+
+body {
+    font-family: Proxima Nova, sans-serif;
+}
